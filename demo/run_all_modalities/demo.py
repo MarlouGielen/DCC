@@ -2,17 +2,19 @@ import sys
 import os
 import warnings
 
-# Disable printing - write into the log file
-def disablePrint():
-    sys.stdout = open("log.txt", 'w')
+# # Disable printing - write into the log file
+# def disablePrint():
+#     sys.stdout = open("log.txt", 'w')
 
-disablePrint()
+# disablePrint()
 
 # Ignore warnings
 if not sys.warnoptions:
     warnings.simplefilter("ignore")
 
-sys.path.append(os.path.abspath('../../src'))
+sys.path.append(os.path.abspath('../../../../../src'))
+sys.path.append(r'C:\Users\s169225\Documents\GitHub\DCC\src')
+
 
 from kgconstruction import text2rdfgraph
 import diagram2graph
@@ -29,7 +31,7 @@ from kgconstruction import i2graph
 from kgconstruction import c2graph
 
 import urllib
-import git
+import gitpython as git
 import shutil
 import yaml
 

@@ -121,7 +121,7 @@ dependencies:
   - numpydoc=0.9.1=py_0
   - olefile=0.46=py37_0
   - opencv=4.1.2=0
-  - openssl=1.1.1=he774522_0
+  - openssl
   - packaging=19.2=py_0
   - pandas=0.25.1=py37he350917_0
   - pandoc=2.7.3=0
@@ -204,8 +204,8 @@ dependencies:
   - tqdm=4.36.1=py_0
   - traitlets=4.3.3=py37_0
   - urllib3=1.24.2=py37_0
-  - vc=14.1=h21ff451_3
-  - vs2015_runtime=15.5.2=3
+  - vc
+  - vs2015_runtime
   - wasabi=0.2.2=py_0
   - wcwidth=0.1.7=py37_0
   - webencodings=0.5.1=py37_1

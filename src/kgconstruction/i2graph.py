@@ -3,7 +3,7 @@ from __future__ import print_function
 import os
 import sys
 sys.path.append(os.path.dirname(os.path.realpath(__file__)))
-sys.path.append(os.path.abspath('../../src/diagram2graph/FigAnalysis/ShapeExtraction'))
+sys.path.append(r'C:\Users\s169225\Documents\GitHub\DCC\src\diagram2graph\FigAnalysis\ShapeExtraction')
 import pickle
 
 import numpy as np
